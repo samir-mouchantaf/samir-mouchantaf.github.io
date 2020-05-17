@@ -1,0 +1,265 @@
+.top-container {
+  background-color: #e4f9f5;
+  position: relative; /*i had to change that to relatinve so that i can set the clouds to absolute, important that if i want to set a child as absolute, i have to set its parent to relative first*/
+  padding-top: 100px;
+  font-family: "Merriweather", serif;
+}
+
+.middle-container {
+  padding: 10px;
+}
+
+.bottom-container {
+  padding: 20px;
+  background-color: #f9d89c;
+  line-height: 1;
+  border: solid 1px purple;
+}
+
+
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+.profile-div {
+  text-align: left;
+}
+
+li {
+  text-align: left;
+}
+
+body {
+  margin: 0px;
+  text-align: center;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.skills-head {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.category-conversion {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+a {
+  color: #11999e;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profile-pic {
+  width: 250px;
+  height: 300px;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+}
+
+.accounting-img {
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.sales-img {
+  width: 24%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.team-work {
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.fmcg-img {
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.cessna-img {
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+.waterpolo-img {
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px 275px;
+}
+
+.coding2-img {
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+
+.contact-me {
+  text-align: center;
+}
+
+.slider-button {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: #11999e;
+  margin-bottom: 1000px;
+}
+
+.slide-container {
+  width: 500px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.img-container {
+  width: 8500px;
+  position: relative;
+  transition: left 2s;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+}
+
+.button-container {
+  top: -310px;
+  position: relative;
+}
+
+.slider-img {
+  width: 500px;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+#slider-img-1:target ~ .img-container {
+  left: -0px;
+}
+
+#slider-img-2:target ~ .img-container {
+  left: -500px;
+}
+
+#slider-img-3:target ~ .img-container {
+  left: -1000px;
+}
+
+#slider-img-4:target ~ .img-container {
+  left: -1500px;
+}
+
+#slider-img-5:target ~ .img-container {
+  left: -2000px;
+}
+
+#slider-img-6:target ~ .img-container {
+  left: -2500px;
+}
+
+#slider-img-7:target ~ .img-container {
+  left: -3000px;
+}
+
+#slider-img-8:target ~ .img-container {
+  left: -3500px;
+}
+
+#slider-img-9:target ~ .img-container {
+  left: -4000px;
+}
+
+#slider-img-10:target ~ .img-container {
+  left: -4500px;
+}
+
+#slider-img-11:target ~ .img-container {
+  left: -5000px;
+}
+
+#slider-img-12:target ~ .img-container {
+  left: -5500px;
+}
+
+#slider-img-13:target ~ .img-container {
+  left: -6000px;
+}
+
+#slider-img-14:target ~ .img-container {
+  left: -6500px;
+}
+
+#slider-img-15:target ~ .img-container {
+  left: -7000px;
+}
+
+#slider-img-16:target ~ .img-container {
+  left: -7500px;
+}
+
+#slider-img-17:target ~ .img-container {
+  left: -8000px;
+}
